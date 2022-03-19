@@ -1,0 +1,5 @@
+#!/bin/bash
+while read SOR
+do
+ [ $SOR = "vége" ] && break
+done

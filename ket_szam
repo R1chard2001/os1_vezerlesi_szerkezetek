@@ -1,0 +1,14 @@
+#!/bin/bash
+echo -n "a = "
+read A
+echo -n "b = "
+read B
+if [ $A -lt $B ]
+then
+ echo "a < b"
+elif [ $B -eq $A ]
+then
+ echo "a = b"
+else
+ echo "a > b"
+fi

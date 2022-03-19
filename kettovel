@@ -1,0 +1,8 @@
+#!/bin/bash
+for I in $(seq 0 3 30)
+do
+ if [ $(($I % 2)) -eq 0 ]
+ then
+  echo $I
+ fi
+done

@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -n "n = "
+read N
+if [ $N -gt 5 ]; then
+ echo "A szám nagyobb mint 5"
+else
+ echo "A szám nem nagyobb mint 5"
+fi
